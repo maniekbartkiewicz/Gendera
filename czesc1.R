@@ -957,4 +957,17 @@ while(x > 0){
       print("Nie ma takiego województwa")
     }
   }
-}
+  if(x == '2'){
+    zmienna = 2
+    miasto = readline("Podaj miasto: ")
+    for(i in 1:dl1){
+      if(miasto == list[[i]][3]){
+        cat("Podane miasto leży w województwie: ")
+        cat(list[[i]][2])
+        zmianna = 1
+      }
+    }
+    if(zmienna == 0){
+      print("Nie ma takiego miasta")
+    }
+  }

@@ -977,3 +977,15 @@ while(x > 0){
     }
   }
 }
+if(x == '3'){
+  miasto_1 = readline("Podaj pierwsze miasto w języku angielskim: ")
+  miasto_2 = readline("Podaj drugie miasto w języku angielskim: ")
+  Pol = pol_wsp[pol_wsp$name %in% c(miasto_1,miasto_2),]
+  lat = Pol[,4]
+  long = Pol[,5]
+  dystans = distm(c(long[1], lat[1]), c(long[2], lat[2]), fun = distHaversine)[,1] / 1000
+  cat("Między miastem", miasto_1, ", a miastem", miasto_2, "jest odległość", dystans, "km.")
+  
+}
+x = readline("Co chcesz zrobić dalej : (0 jeśli wyjść) ")
+}

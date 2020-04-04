@@ -936,6 +936,10 @@ woje = list(c('ŚLĄSKIE', 12333),
 
 dl1 = length(list)
 dl2 = length(woje)
+cat("Witaj w menu. 
+Wybierz 1, jeżeli chcesz poznać powierzchnię województwa.
+Wybierz 2, jeżeli chcesz sprawdzić w jakim województwie leży wybrane miasto. 
+Wybierz 3, aby poznać odległość między dwoma wybranymi miastami. ")
 x = readline("Co chcesz zrobić: ")
 while(x > 0){
   if(x == '1'){

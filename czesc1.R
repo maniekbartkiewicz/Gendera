@@ -933,7 +933,12 @@ woje = list(c('ŚLĄSKIE', 12333),
             c('ŚWIĘTOKRZYSKIE', 11711),
             c('LUBUSKIE', 13988),
             c('WARMIŃSKO-MAZURSKIE', 24173))
-
+install.packages("stringr")
+install.packages("geosphere")
+install.packages("maps")
+library(maps)
+library(geosphere)
+library(stringr)
 dl1 = length(list)
 dl2 = length(woje)
 cat("Witaj w menu. 
@@ -964,10 +969,11 @@ while(x > 0){
       if(miasto == list[[i]][3]){
         cat("Podane miasto leży w województwie: ")
         cat(list[[i]][2])
-        zmianna = 1
+        zmienna = 1
       }
     }
     if(zmienna == 0){
       print("Nie ma takiego miasta")
     }
   }
+}

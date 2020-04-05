@@ -1,5 +1,4 @@
 install.packages("remotes")
-install_github("mgendera/plcities/plcities")
 install.packages("stringr")
 install.packages("geosphere")
 install.packages("maps")
@@ -7,10 +6,10 @@ library("remotes")
 library(maps)
 library(geosphere)
 library(stringr)
+install_github("mgendera/plcities/plcities")
 woje = plcities::wojewodztwa
 list = plcities::miasta
-dl1 = length(list)
-dl2 = length(woje)
+pol_wsp = world.cities[world.cities$country.etc == "Poland",]
 dl1 = length(list)
 dl2 = length(woje)
 cat("Witaj w menu. 

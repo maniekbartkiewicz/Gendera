@@ -26,7 +26,7 @@ Nasz program zaczyna się od zainstalowania potrzebnych pakietów oraz bibliotek
 Funkcja pierwsza i druga opierają się na wykorzystaniu pętli. Pierwsza podaje informację o powierzchni wybranego województwa. Przy wprowadzaniu danych do tej funkcji należy pamiętać o polskich znakach. Druga informuje w jakim województwie położone jest wybrane przez użytkownika miasto. Gdy użytkownik wprowadzi niewłaściwe dane, zostanie o tym poinformowany. Funkcja trzecia pozwala na określenie odległości między dwoma miastami.
 
 ### Przykład użycia:
-* przykład dla województwa wielkopolskiego
+* na podstawie województwa wielkopolskiego
 1. Wczytujemy zakładkę "Wczytanie danych"
 2. Wczytujemy zakładkę "Funkcje"
 3. Wybieramy miasta: Poznań, Kalisz

@@ -15,7 +15,7 @@ Celem naszego projektu jest obliczanie odległości z miasta do miasta w Polsce,
 ## Technologie
 * R - wersja 3.6.3
 
-### Użyte biblioteki:
+### Użyte pakiety:
 * "remotes"
 * "maps"
 * "geosphere"

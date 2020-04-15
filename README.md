@@ -28,9 +28,10 @@ Funkcja pierwsza i druga opierają się na wykorzystaniu pętli. Pierwsza podaje
 ### Przykład użycia:
 1. Wczytujemy zakładkę "Wczytanie danych"
 2. Wczytujemy zakładkę "Funkcje"
-3. Wczytujemy zakładkę "Program 1"
-4. Wybieramy opcję 1
-5. Wczytujemy zakładkę "Program 2"
+3. Wybieramy miasta
+4. Wczytujemy zakładkę "Program 1"
+5. Wybieramy opcję 1
+6. Wczytujemy zakładkę "Program 2"
 
 ## Status
 Projekt jest zakończony.

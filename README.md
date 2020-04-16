@@ -22,8 +22,8 @@ Celem naszego projektu jest obliczanie odległości z miasta do miasta w Polsce,
 * "stringr"
 
 ## Opis projektu
-Nasz program zaczyna się od zainstalowania potrzebnych pakietów oraz bibliotek. Użytkownik deklaruje użycie pakietów, następnie wywołuje dane, które go interesują. Deklaruje zmienne,zawierające długości list z województwami i miastami. W późniejszym etapie projektu otrzymuje menu, a w nim opcje wyboru działań. Program należy kompilować linia po linii. 
-Funkcja pierwsza i druga opierają się na wykorzystaniu pętli. Pierwsza podaje informację o powierzchni wybranego województwa. Przy wprowadzaniu danych do tej funkcji należy pamiętać o polskich znakach. Druga informuje w jakim województwie położone jest wybrane przez użytkownika miasto. Gdy użytkownik wprowadzi niewłaściwe dane, zostanie o tym poinformowany. Funkcja trzecia pozwala na określenie odległości między dwoma miastami.
+Nasz program zaczyna się od zainstalowania potrzebnych pakietów. Użytkownik deklaruje użycie pakietów, następnie wywołuje dane, które go interesują. Na potrzeby programu stworzyliśmy bibliotekę, która przechowuje listy z danymi na temat województw i miast. Optymalizuje to pracę programu, który nie ma zbędnych linijek kodu. Deklaruje zmienne, które biorą dane z owej biblioteki plcities. Program dzieli się na dwie części. W pierwszej z nich użytkownik widzi menu i trzy opcje wyboru. Druga część programu  to pętla, która po wpisaniu wyboru dokonanego przez użytkownika, wskazuje programowi którą funkcję ma wykonać. Program należy kompilować linia po linii. 
+Pierwsza funkcja sprawdza listę z biblioteki szukając wpisanego przez użytkownika województwa, a gdy znajdzie to zwraca jego powierzchnię. Druga funkcja działa tak samo, ale wyszukuje dane w innej liście i zwraca województwo w którym leży wpisane przez użytkownika miasto. Ostatnia funkcja oblicza odległość w linii prostej między dwoma wskazanymi miastami. Wynik podawany jest w kilometrach.
 
 ### Przykład użycia:
 * na podstawie województwa wielkopolskiego
